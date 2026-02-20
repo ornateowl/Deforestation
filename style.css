@@ -1,0 +1,81 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+   font-family: "Roboto"; /* I wanted everything to be in the roboto font! */
+}
+
+body {
+ background-color: #4f6d5c; 
+}
+
+/* STYLE TEXT */
+
+h1 {
+  color: white;
+   text-align:center;
+   padding-top: 1em;
+}
+
+h3 {
+   color: white;
+   text-align:center;
+   padding-top: 2em;
+   margin-left: 2em; /* This is to make sure that the text is not completely touching the side of the screen or the bottom. */
+   margin-right:2em;
+   margin-bottom:2em;
+}
+
+
+.center {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     max-width: 50%;
+     border-radius: 20%; /*I wanted the corners to be a little round */
+     border: 10px solid white;
+     margin-top: 2em;
+}
+
+a {
+   color: white;
+}
+
+ul {
+  list-style-type: none;
+  background-color:#91a8a4;
+  overflow:hidden;
+  padding: 1em;
+  text-align:center;
+
+}
+
+li {
+  display:inline;
+
+}
+
+li a{
+  text-decoration: none;
+  padding:1em;
+
+}
+
+li a:hover{
+  background-color:#6dba9d; /*I wanted the color to be a little brighter and lighter after hovering over it */
+}
+
+#fact {
+   text-align:center;
+   color:white; 
+   padding-top: 1em;
+}
+
+
+/* STYLE IMAGES */
+
+/* STYLE NAV BAR */
+
+/* STYLE BUTTONS */
+
+/* ADD MORE! */
